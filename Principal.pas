@@ -19,9 +19,9 @@ type
     procedure btnLancarClick(Sender: TObject);
   private
     FDescricao: string;
-    { Private declarations }
+
   public
-    { Public declarations }
+
   end;
 
 var
@@ -30,7 +30,7 @@ var
 implementation
 
 uses
-  Tarefa;
+  Tarefa, Funcoes;
 
 {$R *.dfm}
 
@@ -40,20 +40,23 @@ var
   Tarefa: TTarefa;
   MsgErro: String;
 begin
+  // TTFuncoes.ExibirNotificacoes(Mensagem);
+
   Tarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
   try
     if Tarefa.Validar(MsgErro) then
     begin
-      mTarefas.Lines.Add('Tarefa : ' + Tarefa.Descricao + ' Adicionada com sucesso');
+      mTarefas.Lines.Add('Tarefa : [' + Tarefa.Descricao + '] Adicionada com sucesso.');
+      edDescricao.Clear;
     end
     else
     begin
       mTarefas.Lines.Add(MsgErro);
     end;
-
   finally
     Tarefa.Free;
   end;
+
 end;
 
 end.

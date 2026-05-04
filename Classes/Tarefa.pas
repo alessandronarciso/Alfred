@@ -8,7 +8,6 @@ uses
 type
   TTarefa = class(TObject)
   private
-
     FDescricao: string;
     FConcluida: Boolean;
     FDataLimite: TDateTime;
@@ -29,6 +28,9 @@ type
 
 implementation
 
+uses
+  Funcoes;
+
 { TTarefa }
 
 constructor TTarefa.Create(ADescricao: string; AData: TDateTime);
@@ -40,26 +42,26 @@ end;
 
 procedure TTarefa.SetDescricao(const Value: string);
 begin
-  FDescricao := UpperCase(Value).Trim;
+  FDescricao := Value.Trim;
 end;
 
 function TTarefa.Validar(out Mensagem: string): Boolean;
 begin
-
   Result := True;
   Mensagem := '';
 
   if FDescricao = '' then
   begin
     Result := False;
-    Mensagem := 'Erro: A descrição não pode estar vazia.';
+    Mensagem := 'Erro: A descrição não pode estar vazia!';
+    ExibirMensagem('Erro ao Gravar', Mensagem, 1);
     Exit;
   end;
 
   if Length(FDescricao) < 3 then
   begin
     Result := False;
-    Mensagem := 'Erro: Descrição "' + FDescricao + '" está incompleta. Use pelo menos 3 letras.';
+    Mensagem := 'Erro: Descrição "' + FDescricao + '" está incompleta. Use pelo menos 3 letras!';
     Exit;
   end;
 

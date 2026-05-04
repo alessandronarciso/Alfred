@@ -10,9 +10,9 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxDbGFzc2VzXFRhcmVmYS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
-CursorX=1
-CursorY=75
-TopLine=43
+CursorX=17
+CursorY=57
+TopLine=34
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -20,12 +20,12 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxQcmluY2lwYWwucGFz]
 Module=C:\Narciso\Estudos\Alfred\Principal.pas
-CursorX=56
-CursorY=52
-TopLine=33
+CursorX=17
+CursorY=49
+TopLine=25
 LeftCol=1
 Elisions=
-Bookmarks={7,59,5}
+Bookmarks=
 EditViewName=C:\Narciso\Estudos\Alfred\Principal.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxUYXJlZmFzLmRwcg==]
@@ -37,4 +37,284 @@ LeftCol=1
 Elisions=
 Bookmarks=
 EditViewName=C:\Narciso\Estudos\Alfred\Tarefas.dpr
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxTT1VSQ0VcUlRM
+XFNZU1xTeXN0ZW0uU3lzVXRpbHMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\SOURCE\RTL\SYS\System.SysUtils.pas
+CursorX=1
+CursorY=32189
+TopLine=32169
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFRpdGxlYmFyXFRp
+dGxlYmFyUGFuZWxcTWFpbi5wYXM=]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+CursorX=1
+CursorY=147
+TopLine=145
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=82
+TopLine=81
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFRpdGxlYmFyXFRp
+dGxlYmFyUGFuZWxcTWFpbi5wYXM=]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+CursorX=1
+CursorY=147
+TopLine=136
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=82
+TopLine=81
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=82
+TopLine=81
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFRpdGxlYmFyXFRp
+dGxlYmFyUGFuZWxcTWFpbi5wYXM=]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+CursorX=1
+CursorY=147
+TopLine=136
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFRpdGxlYmFyXFRp
+dGxlYmFyUGFuZWxcTWFpbi5wYXM=]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+CursorX=1
+CursorY=147
+TopLine=136
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Titlebar\TitlebarPanel\Main.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxGdW5jb2VzLnBhcw==]
+Module=C:\Narciso\Estudos\Alfred\Funcoes.pas
+CursorX=25
+CursorY=30
+TopLine=19
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Narciso\Estudos\Alfred\Funcoes.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=4
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=4
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=4
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=5
+CursorY=22
+TopLine=16
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=66
+TopLine=49
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=66
+TopLine=49
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=22
+CursorY=70
+TopLine=49
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=1
+CursorY=66
+TopLine=49
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=98
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=74
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=59
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=74
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=74
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=74
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+[ClosedView_QzpcRXN0dWRvc1xSQURTdHVkaW8xMkRlbW9zXE9iamVjdCBQYXNjYWxcVkNMXFdpbmRvd3MgMTAg
+Tm90aWZpY2F0aW9uc1xOb3RpZmljYXRpb25zLnBhcw==]
+Module=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+CursorX=26
+CursorY=107
+TopLine=74
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notifications\Notifications.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxNZW5zYWdlbS5wYXM=]
+Module=C:\Narciso\Estudos\Alfred\Mensagem.pas
+CursorX=32
+CursorY=40
+TopLine=35
+LeftCol=1
+Elisions=
+Bookmarks={7,48,1}
+EditViewName=C:\Narciso\Estudos\Alfred\Mensagem.pas
 

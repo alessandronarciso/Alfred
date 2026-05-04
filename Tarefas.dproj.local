@@ -2,12 +2,17 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2026/05/04 10:25:25.000.527,=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/05/04 11:07:34.063,=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/05/04 11:09:13.050,C:\Narciso\Estudos\Alfred\Principal.dfm=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2026/05/04 11:09:13.050,C:\Narciso\Estudos\Alfred\Principal.pas=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/05/04 11:09:20.529,C:\Narciso\Estudos\Alfred\Tarefas.dproj=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2026/05/04 11:10:28.543,=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
-    <Transaction>2026/05/04 11:14:20.747,C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
-    <Transaction>2026/05/04 11:15:02.769,C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas</Transaction>
+    <Transaction>2026/05/04 11:07:34.000.063,=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:09:13.000.050,C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Narciso\Estudos\Alfred\Principal.pas</Transaction>
+    <Transaction>2026/05/04 11:09:13.000.050,C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Narciso\Estudos\Alfred\Principal.dfm</Transaction>
+    <Transaction>2026/05/04 11:09:20.000.529,C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Narciso\Estudos\Alfred\Tarefas.dproj</Transaction>
+    <Transaction>2026/05/04 11:10:28.000.543,=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:14:20.000.747,C:\Narciso\Estudos\Alfred\Unit1.pas=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas</Transaction>
+    <Transaction>2026/05/04 11:15:02.000.769,C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas</Transaction>
+    <Transaction>2026/05/04 14:17:19.088,=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 14:17:34.469,C:\Narciso\Estudos\Alfred\Funcoes.pas=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 14:44:40.073,=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 14:53:15.147,C:\Narciso\Estudos\Alfred\Mensagem.dfm=C:\Narciso\Estudos\Alfred\Unit1.dfm</Transaction>
+    <Transaction>2026/05/04 14:53:15.147,C:\Narciso\Estudos\Alfred\Mensagem.pas=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
