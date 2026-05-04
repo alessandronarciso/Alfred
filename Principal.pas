@@ -34,6 +34,20 @@ procedure TfPrincipal.btnLancarClick(Sender: TObject);
 var
   MinhaTarefa: TTarefa; // Declaramos a variável do tipo da classe
 begin
+
+  if edDescricao.Text = '' then
+  begin
+    mTarefas.Lines.Add('Informe a descrição para prosseguir.');
+    edDescricao.SetFocus;
+    exit;
+  end;
+
+  if dtpData.Date < Now then
+  begin
+    mTarefas.Lines.Add('A Data não pode ser retroativa');
+    exit;
+  end;
+
   // 1. Instanciamos o objeto (Criamos na memória)
   MinhaTarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
 
@@ -43,7 +57,7 @@ begin
       mTarefas.Lines.Add('Atenção: Esta tarefa já está atrasada!')
 
     else
-      mTarefas.Lines.Add('Tarefa: ' + MinhaTarefa.Descricao + ' criada com sucesso!');
+      mTarefas.Lines.Add('Tarefa: ' + MinhaTarefa.Descricao + ' | Data: ' + FormatDateTime('dd/mm/yyy', MinhaTarefa.DataLimite) + ' criada com sucesso!');
 
     // 3. Exemplo de ação
     MinhaTarefa.Concluir;

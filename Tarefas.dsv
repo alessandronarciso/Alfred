@@ -10,9 +10,9 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxDbGFzc2VzXFRhcmVmYS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
-CursorX=1
-CursorY=33
-TopLine=19
+CursorX=47
+CursorY=18
+TopLine=7
 LeftCol=1
 Elisions=
 Bookmarks={7,51,5}
@@ -20,11 +20,21 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxQcmluY2lwYWwucGFz]
 Module=C:\Narciso\Estudos\Alfred\Principal.pas
-CursorX=26
-CursorY=50
-TopLine=16
+CursorX=127
+CursorY=46
+TopLine=22
 LeftCol=1
 Elisions=
-Bookmarks={7,16,29}
+Bookmarks={7,32,1}
 EditViewName=C:\Narciso\Estudos\Alfred\Principal.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxUYXJlZmFzLmRwcg==]
+Module=C:\Narciso\Estudos\Alfred\Tarefas.dpr
+CursorX=30
+CursorY=17
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Narciso\Estudos\Alfred\Tarefas.dpr
 
