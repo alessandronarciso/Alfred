@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/05/04 10:25:25.000.527,=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:07:34.063,=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:09:13.050,C:\Narciso\Estudos\Alfred\Principal.dfm=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2026/05/04 11:09:13.050,C:\Narciso\Estudos\Alfred\Principal.pas=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:09:20.529,C:\Narciso\Estudos\Alfred\Tarefas.dproj=C:\Users\usuario\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/05/04 11:10:28.543,=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:14:20.747,C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas=C:\Narciso\Estudos\Alfred\Unit1.pas</Transaction>
+    <Transaction>2026/05/04 11:15:02.769,C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas</Transaction>
+  </Transactions>
+</BorlandProject>

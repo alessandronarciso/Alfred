@@ -1,0 +1,12 @@
+unit Tarefa;
+
+interface
+
+type
+  TTarefas = class(TObject)
+
+  end;
+
+implementation
+
+end.
