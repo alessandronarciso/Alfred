@@ -35,7 +35,7 @@ object fPrincipal: TfPrincipal
     Top = 7
     Width = 121
     Height = 25
-    Caption = 'Salvar Tarefa'
+    Caption = 'Salvar'
     TabOrder = 2
     OnClick = btnLancarClick
   end

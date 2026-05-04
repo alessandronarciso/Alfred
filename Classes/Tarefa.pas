@@ -3,26 +3,27 @@ unit Tarefa;
 interface
 
 uses
-  System.SysUtils; // Necessário para usar datas e funções de string
+  System.SysUtils;
 
 type
   TTarefa = class(TObject)
   private
-    { Atributos privados - Segurança dos dados (Encapsulamento) }
+
     FDescricao: string;
     FConcluida: Boolean;
     FDataLimite: TDateTime;
+
+    procedure SetDescricao(const Value: string);
   public
-    { Propriedades - O que o mundo externo vê }
-    property Descricao: string read FDescricao write FDescricao;
+
+    property Descricao: string read FDescricao write SetDescricao;
     property Concluida: Boolean read FConcluida write FConcluida;
     property DataLimite: TDateTime read FDataLimite write FDataLimite;
 
-    { Métodos - Ações que a classe realiza }
+    function Validar(out Mensagem: string): Boolean;
     function EstaAtrasada: Boolean;
     procedure Concluir;
 
-    { Construtor - Para inicializar a tarefa com valores padrão }
     constructor Create(ADescricao: string; AData: TDateTime);
   end;
 
@@ -32,20 +33,46 @@ implementation
 
 constructor TTarefa.Create(ADescricao: string; AData: TDateTime);
 begin
-  FDescricao  := ADescricao;
+  Self.Descricao := ADescricao;
   FDataLimite := AData;
-  FConcluida  := False; // Toda tarefa nova começa não concluída
+  FConcluida := False;
+end;
+
+procedure TTarefa.SetDescricao(const Value: string);
+begin
+  FDescricao := UpperCase(Value).Trim;
+end;
+
+function TTarefa.Validar(out Mensagem: string): Boolean;
+begin
+
+  Result := True;
+  Mensagem := '';
+
+  if FDescricao = '' then
+  begin
+    Result := False;
+    Mensagem := 'Erro: A descrição não pode estar vazia.';
+    Exit;
+  end;
+
+  if Length(FDescricao) < 3 then
+  begin
+    Result := False;
+    Mensagem := 'Erro: Descrição "' + FDescricao + '" está incompleta. Use pelo menos 3 letras.';
+    Exit;
+  end;
+
+end;
+
+function TTarefa.EstaAtrasada: Boolean;
+begin
+  Result := (not FConcluida) and (Date > FDataLimite);
 end;
 
 procedure TTarefa.Concluir;
 begin
   FConcluida := True;
-end;
-
-function TTarefa.EstaAtrasada: Boolean;
-begin
-  // Retorna True se não estiver concluída E a data atual for maior que a limite
-  Result := (not FConcluida) and (Date > FDataLimite);
 end;
 
 end.

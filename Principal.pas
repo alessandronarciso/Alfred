@@ -18,6 +18,7 @@ type
     mTarefas: TMemo;
     procedure btnLancarClick(Sender: TObject);
   private
+    FDescricao: string;
     { Private declarations }
   public
     { Public declarations }
@@ -36,40 +37,22 @@ uses
 
 procedure TfPrincipal.btnLancarClick(Sender: TObject);
 var
-  MinhaTarefa: TTarefa; // Declaramos a variável do tipo da classe
+  Tarefa: TTarefa;
+  MsgErro: String;
 begin
-
-  if edDescricao.Text = '' then
-  begin
-    mTarefas.Lines.Add('Informe a descrição para prosseguir.');
-    edDescricao.SetFocus;
-    exit;
-  end;
-
-  if dtpData.Date < Date then
-  begin
-    mTarefas.Lines.Add('A Data não pode ser retroativa');
-    exit;
-  end;
-
-  // 1. Instanciamos o objeto (Criamos na memória)
-  MinhaTarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
-
+  Tarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
   try
-    // 2. Usamos as propriedades e métodos
-    if MinhaTarefa.EstaAtrasada then
-      mTarefas.Lines.Add('Atenção: Esta tarefa já está atrasada!')
-
+    if Tarefa.Validar(MsgErro) then
+    begin
+      mTarefas.Lines.Add('Tarefa : ' + Tarefa.Descricao + ' Adicionada com sucesso');
+    end
     else
-      mTarefas.Lines.Add('Tarefa: ' + MinhaTarefa.Descricao + ' | Data: ' + FormatDateTime('dd/mm/yyy', MinhaTarefa.DataLimite) + ' criada com sucesso!');
-
-    // 3. Exemplo de ação
-    MinhaTarefa.Concluir;
+    begin
+      mTarefas.Lines.Add(MsgErro);
+    end;
 
   finally
-    // 4. MUITO IMPORTANTE: Em POO, o que você cria, você deve destruir
-    // para não causar vazamento de memória (Memory Leak)
-    MinhaTarefa.Free;
+    Tarefa.Free;
   end;
 end;
 
