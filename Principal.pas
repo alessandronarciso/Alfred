@@ -4,7 +4,11 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls,
+  Vcl.TitleBarCtrls, Vcl.ToolWin, Vcl.ActnMan, Vcl.ActnCtrls, Vcl.ActnMenus,
+  Vcl.BaseImageCollection, Vcl.ImageCollection, System.ImageList, Vcl.ImgList,
+  Vcl.VirtualImageList, Vcl.StdActns, Vcl.ExtActns, Vcl.ActnList,
+  System.Actions, Vcl.PlatformDefaultStyleActnCtrls;
 
 type
   TfPrincipal = class(TForm)
@@ -42,7 +46,7 @@ begin
     exit;
   end;
 
-  if dtpData.Date < Now then
+  if dtpData.Date < Date then
   begin
     mTarefas.Lines.Add('A Data não pode ser retroativa');
     exit;
