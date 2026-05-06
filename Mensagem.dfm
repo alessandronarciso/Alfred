@@ -4,8 +4,8 @@ object fMensagem: TfMensagem
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'Notifica'#231#227'o'
-  ClientHeight = 180
-  ClientWidth = 369
+  ClientHeight = 206
+  ClientWidth = 445
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,10 +14,13 @@ object fMensagem: TfMensagem
   Font.Style = []
   Position = poOwnerFormCenter
   OnShow = FormShow
+  DesignSize = (
+    445
+    206)
   TextHeight = 15
   object imageicone: TSVGIconImage
-    Left = 152
-    Top = 48
+    Left = 190
+    Top = 35
     Width = 65
     Height = 64
     AutoSize = False
@@ -26,23 +29,25 @@ object fMensagem: TfMensagem
     ImageName = 'ok-svgrepo-com'
   end
   object lblMensagem: TLabel
-    Left = 12
-    Top = 118
-    Width = 345
-    Height = 25
+    Left = 29
+    Top = 109
+    Width = 387
+    Height = 42
     Alignment = taCenter
+    Anchors = []
     AutoSize = False
     Caption = 'Salvo com sucesso'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clBlack
-    Font.Height = -19
+    Font.Height = -16
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
+    WordWrap = True
   end
   object lblTitulo: TLabel
-    Left = 12
-    Top = 8
+    Left = 50
+    Top = 7
     Width = 345
     Height = 25
     Alignment = taCenter
@@ -56,8 +61,8 @@ object fMensagem: TfMensagem
     ParentFont = False
   end
   object cxButton1: TcxButton
-    Left = 147
-    Top = 146
+    Left = 185
+    Top = 165
     Width = 75
     Height = 25
     Caption = '&OK'
