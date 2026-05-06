@@ -9,7 +9,7 @@ object fPrincipal: TfPrincipal
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
-  Font.Name = 'Segoe UI'
+  Font.Name = 'Inter'
   Font.Style = []
   Position = poScreenCenter
   TextHeight = 15

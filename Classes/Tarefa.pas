@@ -62,6 +62,7 @@ begin
   begin
     Result := False;
     Mensagem := 'Erro: Descrição "' + FDescricao + '" está incompleta. Use pelo menos 3 letras!';
+    ExibirMensagem('Erro ao Gravar', Mensagem, 1);
     Exit;
   end;
 

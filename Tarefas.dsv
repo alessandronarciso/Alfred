@@ -10,9 +10,9 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxDbGFzc2VzXFRhcmVmYS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
-CursorX=17
-CursorY=57
-TopLine=34
+CursorX=41
+CursorY=65
+TopLine=35
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -20,8 +20,8 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxQcmluY2lwYWwucGFz]
 Module=C:\Narciso\Estudos\Alfred\Principal.pas
-CursorX=17
-CursorY=49
+CursorX=29
+CursorY=50
 TopLine=25
 LeftCol=1
 Elisions=
@@ -130,9 +130,9 @@ EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notificati
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxGdW5jb2VzLnBhcw==]
 Module=C:\Narciso\Estudos\Alfred\Funcoes.pas
-CursorX=25
+CursorX=24
 CursorY=30
-TopLine=19
+TopLine=10
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -311,10 +311,10 @@ EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notificati
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxNZW5zYWdlbS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Mensagem.pas
 CursorX=32
-CursorY=40
-TopLine=35
+CursorY=45
+TopLine=4
 LeftCol=1
 Elisions=
-Bookmarks={7,48,1}
+Bookmarks={7,35,1}
 EditViewName=C:\Narciso\Estudos\Alfred\Mensagem.pas
 

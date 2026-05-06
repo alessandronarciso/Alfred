@@ -46,7 +46,11 @@ begin
   try
     if Tarefa.Validar(MsgErro) then
     begin
-      mTarefas.Lines.Add('Tarefa : [' + Tarefa.Descricao + '] Adicionada com sucesso.');
+      var
+      Mensagem := 'Tarefa : [' + Tarefa.Descricao + '] Adicionada com sucesso.';
+
+      mTarefas.Lines.Add(Mensagem);
+      ExibirMensagem('Sucesso', Mensagem, 0);
       edDescricao.Clear;
     end
     else
