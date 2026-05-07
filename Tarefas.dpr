@@ -7,7 +7,9 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   Funcoes in 'Funcoes.pas',
-  Mensagem in 'Mensagem.pas' {fMensagem};
+  Mensagem in 'Mensagem.pas' {fMensagem},
+  Usuario in 'Classes\Usuario.pas',
+  Login in 'Login.pas' {fLogin};
 
 {$R *.res}
 

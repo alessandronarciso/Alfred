@@ -16,9 +16,9 @@ type
     dtpData: TDateTimePicker;
     btnLancar: TButton;
     mTarefas: TMemo;
+    procedure FormCreate(Sender: TObject);
     procedure btnLancarClick(Sender: TObject);
   private
-    FDescricao: string;
 
   public
 
@@ -30,19 +30,30 @@ var
 implementation
 
 uses
-  Tarefa, Funcoes;
+  Tarefa, Funcoes, Login;
 
 {$R *.dfm}
 
 
+procedure TfPrincipal.FormCreate(Sender: TObject);
+begin
+  with TfLogin.Create(nil) do
+  begin
+    try
+      ShowModal;
+    finally
+      Free;
+    end;
+  end;
+end;
+
 procedure TfPrincipal.btnLancarClick(Sender: TObject);
 var
-  Tarefa: TTarefa;
   MsgErro: String;
 begin
-  // TTFuncoes.ExibirNotificacoes(Mensagem);
-
+  var
   Tarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
+
   try
     if Tarefa.Validar(MsgErro) then
     begin
@@ -54,9 +65,8 @@ begin
       edDescricao.Clear;
     end
     else
-    begin
       mTarefas.Lines.Add(MsgErro);
-    end;
+
   finally
     Tarefa.Free;
   end;

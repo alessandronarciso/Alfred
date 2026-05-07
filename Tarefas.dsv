@@ -10,9 +10,9 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefas.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxDbGFzc2VzXFRhcmVmYS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
-CursorX=41
-CursorY=65
-TopLine=35
+CursorX=72
+CursorY=56
+TopLine=23
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -20,12 +20,12 @@ EditViewName=C:\Narciso\Estudos\Alfred\Classes\Tarefa.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxQcmluY2lwYWwucGFz]
 Module=C:\Narciso\Estudos\Alfred\Principal.pas
-CursorX=29
-CursorY=50
-TopLine=25
+CursorX=12
+CursorY=45
+TopLine=23
 LeftCol=1
 Elisions=
-Bookmarks=
+Bookmarks={7,33,25}
 EditViewName=C:\Narciso\Estudos\Alfred\Principal.pas
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxUYXJlZmFzLmRwcg==]
@@ -130,9 +130,9 @@ EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notificati
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxGdW5jb2VzLnBhcw==]
 Module=C:\Narciso\Estudos\Alfred\Funcoes.pas
-CursorX=24
-CursorY=30
-TopLine=10
+CursorX=1
+CursorY=32
+TopLine=7
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -310,11 +310,41 @@ EditViewName=C:\Estudos\RADStudio12Demos\Object Pascal\VCL\Windows 10 Notificati
 
 [ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxNZW5zYWdlbS5wYXM=]
 Module=C:\Narciso\Estudos\Alfred\Mensagem.pas
-CursorX=32
-CursorY=45
-TopLine=4
+CursorX=60
+CursorY=23
+TopLine=19
 LeftCol=1
 Elisions=
-Bookmarks={7,35,1}
+Bookmarks={7,36,1}
 EditViewName=C:\Narciso\Estudos\Alfred\Mensagem.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxVbml0MS5wYXM=]
+Module=C:\Narciso\Estudos\Alfred\Unit1.pas
+CursorX=11
+CursorY=1
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Narciso\Estudos\Alfred\Unit1.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxDbGFzc2VzXFVzdWFyaW8ucGFz]
+Module=C:\Narciso\Estudos\Alfred\Classes\Usuario.pas
+CursorX=10
+CursorY=35
+TopLine=19
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Narciso\Estudos\Alfred\Classes\Usuario.pas
+
+[ClosedView_QzpcTmFyY2lzb1xFc3R1ZG9zXEFsZnJlZFxMb2dpbi5wYXM=]
+Module=C:\Narciso\Estudos\Alfred\Login.pas
+CursorX=23
+CursorY=47
+TopLine=22
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Narciso\Estudos\Alfred\Login.pas
 

@@ -12,6 +12,7 @@ object fPrincipal: TfPrincipal
   Font.Name = 'Inter'
   Font.Style = []
   Position = poScreenCenter
+  OnCreate = FormCreate
   TextHeight = 15
   object edDescricao: TEdit
     Left = 0

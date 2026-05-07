@@ -136,6 +136,11 @@
             <Form>fMensagem</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Classes\Usuario.pas"/>
+        <DCCReference Include="Login.pas">
+            <Form>fLogin</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
