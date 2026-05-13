@@ -35,28 +35,30 @@ uses
 
 
 procedure TfPrincipal.btnLancarClick(Sender: TObject);
-var
-  MsgErro: String;
 begin
-  var
-  Tarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
-  try
-    if Tarefa.Validar(MsgErro) then
-    begin
 
+  with TTarefa.Create(edDescricao.Text, dtpData.Date) do
+    try
       var
-      Mensagem := Format('Tarefa : [%s] Adicionada com sucesso.', [Tarefa.Descricao]);
+        MsgErro: String;
+      if Validar(MsgErro) then
+      begin
 
-      mTarefas.Lines.Add(Mensagem);
-      ExibirMensagem('Sucesso', Mensagem, 0);
-      edDescricao.Clear;
-    end
-    else
-      mTarefas.Lines.Add(MsgErro);
+        var
+        Mensagem := Format('Tarefa : [%s] Adicionada com sucesso.', [Descricao]);
 
-  finally
-    Tarefa.Free;
-  end;
+        mTarefas.Lines.Add(Mensagem);
+
+        ExibirMensagem('Sucesso', Mensagem, 0);
+
+        edDescricao.Clear;
+      end
+      else
+        mTarefas.Lines.Add(MsgErro);
+
+    finally
+      Free;
+    end;
 
 end;
 
