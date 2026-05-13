@@ -16,7 +16,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  TStyleManager.TrySetStyle('Windows Designer');
-  Application.CreateForm(TfPrincipal, fPrincipal);
+  Application.CreateForm(TfLogin, fLogin);
   Application.Run;
 end.

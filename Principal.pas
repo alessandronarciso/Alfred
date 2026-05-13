@@ -16,7 +16,6 @@ type
     dtpData: TDateTimePicker;
     btnLancar: TButton;
     mTarefas: TMemo;
-    procedure FormCreate(Sender: TObject);
     procedure btnLancarClick(Sender: TObject);
   private
 
@@ -35,22 +34,6 @@ uses
 {$R *.dfm}
 
 
-procedure TfPrincipal.FormCreate(Sender: TObject);
-begin
-
-  with TfLogin.Create(nil) do
-    try
-
-      if ShowModal <> mrOk then
-      begin
-        Application.Terminate;
-      end;
-    finally
-      Free;
-    end;
-
-end;
-
 procedure TfPrincipal.btnLancarClick(Sender: TObject);
 var
   MsgErro: String;
@@ -60,11 +43,9 @@ begin
   try
     if Tarefa.Validar(MsgErro) then
     begin
+
       var
-      Mensagem :=
-        'Tarefa : [' +
-        Tarefa.Descricao +
-        '] Adicionada com sucesso.';
+      Mensagem := Format('Tarefa : [%s] Adicionada com sucesso.', [Tarefa.Descricao]);
 
       mTarefas.Lines.Add(Mensagem);
       ExibirMensagem('Sucesso', Mensagem, 0);
