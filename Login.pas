@@ -17,6 +17,7 @@ type
     { Private declarations }
   public
     { Public declarations }
+    ValidaLogin: Boolean;
   end;
 
 var
@@ -32,25 +33,27 @@ uses
 
 procedure TfLogin.cxButton1Click(Sender: TObject);
 begin
-  var
-  Login := TTUsuario.Create('', '');
 
-  var
-    Mensagem: String;
+  with TTUsuario.Create do
+    try
 
-  with Login do
-  begin
+      Login := UpperCase(edLogin.Text);
+      Senha := edSenha.Text;
+      var
+        Mensagem: String;
+      if ProcessarLogin(Mensagem) then
+      begin
+        ModalResult := mrOk;
+      end
+      else
+      begin
+        ShowMessage(Mensagem);
+        edSenha.Clear;
+      end;
 
-    Login := edLogin.Text;
-    Senha := '';
-    ProcessarLogin(Mensagem);
-
-    if Mensagem.IsEmpty then
-      exit;
-
-    ShowMessage(Mensagem);
-    Close;
-  end;
+    finally
+      Free;
+    end;
 
 end;
 

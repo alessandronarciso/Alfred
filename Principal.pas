@@ -37,14 +37,18 @@ uses
 
 procedure TfPrincipal.FormCreate(Sender: TObject);
 begin
+
   with TfLogin.Create(nil) do
-  begin
     try
-      ShowModal;
+
+      if ShowModal <> mrOk then
+      begin
+        Application.Terminate;
+      end;
     finally
       Free;
     end;
-  end;
+
 end;
 
 procedure TfPrincipal.btnLancarClick(Sender: TObject);
@@ -53,12 +57,14 @@ var
 begin
   var
   Tarefa := TTarefa.Create(edDescricao.Text, dtpData.Date);
-
   try
     if Tarefa.Validar(MsgErro) then
     begin
       var
-      Mensagem := 'Tarefa : [' + Tarefa.Descricao + '] Adicionada com sucesso.';
+      Mensagem :=
+        'Tarefa : [' +
+        Tarefa.Descricao +
+        '] Adicionada com sucesso.';
 
       mTarefas.Lines.Add(Mensagem);
       ExibirMensagem('Sucesso', Mensagem, 0);
