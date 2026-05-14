@@ -1,0 +1,16 @@
+[ Alfred | Gestor de Tarefas ]
+
+
+
+Banco de Dados :
+SQLite
+
+Funcionalidades :
+ 1 - Controle por usuários✅
+ 2 - Controle de Tarefas 
+ 3 - Relátorios
+
+ Interface :
+ Boas práticas
+ Clean code
+ Layout moderno

@@ -116,15 +116,3 @@ Tarefas/
 │   └── Debug/             → Arquivos compilados
 └── __history/             → Histórico de versões
 ```
-
-## 👨‍💻 Autor
-
-Desenvolvido como estudo de Programação Orientada a Objetos em Delphi
-
-## 📄 Licença
-
-Este projeto é fornecido como material educacional.
-
----
-
-**Nota:** Este é um projeto de estudo. Para aplicações em produção, considere adicionar funcionalidades como persistência de dados (banco de dados), tratamento avançado de exceções e testes unitários.

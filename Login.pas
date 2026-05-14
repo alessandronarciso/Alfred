@@ -5,15 +5,18 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, cxGraphics,
-  cxLookAndFeels, cxLookAndFeelPainters, Vcl.Menus, cxButtons, Vcl.ExtCtrls;
+  cxLookAndFeels, cxLookAndFeelPainters, Vcl.Menus, cxButtons, Vcl.ExtCtrls,
+  System.Skia, Vcl.Skia;
 
 type
   TfLogin = class(TForm)
+    pnInfo: TPanel;
+    Panel1: TPanel;
     edLogin: TMaskEdit;
     edSenha: TMaskEdit;
-    btnLogar: TcxButton;
-    pnInfo: TPanel;
-    procedure btnLogarClick(Sender: TObject);
+    btnEntrar: TcxButton;
+    SkLabel1: TSkLabel;
+    procedure btnEntrarClick(Sender: TObject);
   private
     { Private declarations }
     procedure ProcessaInfo(Mensagem: String; Cor: TColor);
@@ -34,7 +37,7 @@ uses
 {$R *.dfm}
 
 
-procedure TfLogin.btnLogarClick(Sender: TObject);
+procedure TfLogin.btnEntrarClick(Sender: TObject);
 var
   Mensagem: String;
   fPrincipal: TfPrincipal;
@@ -49,7 +52,6 @@ begin
       begin
 
         ProcessaInfo(Mensagem, clGreen);
-        Sleep(200);
 
         fPrincipal := TfPrincipal.Create(nil);
         try
@@ -77,6 +79,7 @@ begin
     Caption := Mensagem;
     Color := Cor;
     Update;
+    Visible := True;
   end;
 
 end;
